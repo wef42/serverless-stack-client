@@ -1,11 +1,12 @@
 export default {
+  STRIPE_KEY: "pk_test_mTRmDVsdlGqAOOXUWfdQ3a9n00XxCdYfzI",
   s3: {
-    REGION: "US East (N. Virginia)",
+    REGION: "us-east-1",
     BUCKET: "notes-app-uploads-wef"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://98wik1pha4.execute-api.us-east-1.amazonaws.com"
+    URL: "https://98wik1pha4.execute-api.us-east-1.amazonaws.com/dev"
   },
   cognito: {
     REGION: "us-east-1",
